@@ -8,10 +8,18 @@ body {
     background-color: var(--primaryGrey);
     height: 100vh;
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mainContainer {
     box-shadow: 0 4px 8px rgba(0,0,0.2);
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .mainContainer ul {
