@@ -1,0 +1,20 @@
+:root {
+    --trashRed: #fb9a9a;
+    --primaryGrey: #cccccc; 
+    --primaryPurple: #646fd4;
+}
+
+body {
+    background-color: var(--primaryGrey);
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.mainContainer {
+    box-shadow: 0 4px 8px rgba(0,0,0.2);
+}
+
+.mainContainer ul {
+    list-style-type: none;
+    padding:0;
+}
