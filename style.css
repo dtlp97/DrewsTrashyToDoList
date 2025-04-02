@@ -2,6 +2,21 @@
     --trashRed: #fb9a9a;
     --primaryGrey: #cccccc; 
     --primaryPurple: #646fd4;
+    /** Dark Theme primary colors */
+  --clr-primary-a0: #646fd4;
+  --clr-primary-a10: #787ed9;
+  --clr-primary-a20: #8a8dde;
+  --clr-primary-a30: #9c9ce3;
+  --clr-primary-a40: #adace8;
+  --clr-primary-a50: #bdbced;
+
+  /** Dark Theme surface colors */
+  --clr-surface-a0: #121212;
+  --clr-surface-a10: #282828;
+  --clr-surface-a20: #3f3f3f;
+  --clr-surface-a30: #575757;
+  --clr-surface-a40: #717171;
+  --clr-surface-a50: #8b8b8b;
 }
 
 body {
