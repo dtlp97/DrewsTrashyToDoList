@@ -61,3 +61,16 @@ body {
     background-color: green;
     box-shadow: inset 4px 4px 5px #000000;
 }
+
+.deleteButton {
+    color: var(--trashRed);
+    margin-left: auto;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.deleteButton:hover {
+    background-color: var(--trashRed);
+    color: green;
+}
