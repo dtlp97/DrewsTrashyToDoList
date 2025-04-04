@@ -27,10 +27,20 @@ body {
     padding:0;
 }
 
+.newTaskInput {
+    width: auto;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 30px;
+}
+
 #taskInput {
     border: 2px solid var(--primaryGrey);
     border-radius: 5px;
     padding: 5px;
+    flex: auto;
 
 }
 
