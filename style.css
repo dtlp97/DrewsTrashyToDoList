@@ -26,3 +26,28 @@ body {
     list-style-type: none;
     padding:0;
 }
+
+#taskInput {
+    border: 2px solid var(--primaryGrey);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#addTaskButton{
+    background-color: var(--primaryPurple);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#addTaskButton:hover {
+    background-color: #5a5a5a;
+}
+
+#addTaskButton:active {
+    background-color: green;
+    box-shadow: inset 4px 4px 5px #000000;
+}
