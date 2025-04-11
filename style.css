@@ -135,7 +135,3 @@ body {
 .checkContainer input:checked ~ .checkmark {
     background-color: var(--primaryPurple);
 }
-
-
-
-}

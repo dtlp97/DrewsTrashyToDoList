@@ -23,8 +23,8 @@ function addTaskItem(newTask){
     newTaskItem.classList.add('taskItem');
 
     // Create the label element
-    // const label = document.createElement('label');
-    // label.classList.add('checkContainer');
+    const label = document.createElement('label');
+    label.classList.add('checkContainer');
 
     // Create the checkbox input element
     const checkbox = document.createElement('input');
@@ -32,10 +32,13 @@ function addTaskItem(newTask){
     checkbox.type = 'checkbox';
 
     // Create the checkmark span element
-    // const checkmark = document.createElement('span');
-    // checkmark.classList.add('checkmark');
+    const checkmark = document.createElement('span');
+    checkmark.classList.add('checkmark');
 
-    newTaskItem.appendChild(checkbox);
+    label.appendChild(checkbox);
+    label.appendChild(checkmark);
+
+    newTaskItem.appendChild(label);
     newTaskItem.appendChild(document.createTextNode(newTask));
 
     // Create the delete button div
