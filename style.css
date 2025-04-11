@@ -74,3 +74,14 @@ body {
     background-color: var(--trashRed);
     color: green;
 }
+
+.taskItem {
+    display: flex;
+    color: var(--primaryPurple);
+    align-items: center;
+    border: solid 2px var(--primaryGrey);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 4px 4px 4px rgba(204,204,204,0.4);
+}
